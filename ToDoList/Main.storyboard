@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New to-to Item" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y2S-J6-kgU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New to-do Item" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y2S-J6-kgU">
                                 <rect key="frame" x="20" y="128" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -24,9 +24,6 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Y2S-J6-kgU" firstAttribute="top" secondItem="Wva-x7-R0Y" secondAttribute="bottom" constant="64" id="qoB-vQ-Q79"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item " id="rnC-IY-1GC">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="hyQ-ZI-Bai">
